@@ -1,9 +1,8 @@
-import { ButtonWithIcon } from './Buttons'
 
 export default function BottomPart() {
     return (
         <footer>
-            App Footer <ButtonWithIcon></ButtonWithIcon>
+            --------------------------------------------------------------------------------------------------------------------------------&copy; 2025 — All rights reserved.-----------------------------------------------------------------------------------------------------------------------------------------------
         </footer>
     )
 }
