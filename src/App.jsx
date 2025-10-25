@@ -7,7 +7,6 @@ export default function App() {
         <div>
             <AppHeader></AppHeader>
             <Appear></Appear>
-            
             <Footer></Footer>
         </div>
     )
