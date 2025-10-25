@@ -1,12 +1,14 @@
-import TopPart from './TopPart'
-import BottomPart from './BottomPart'
 
+import Footer from './BottomPart'
+import { Appear } from './Bodyy'
+import AppHeader from './TopPart'
 export default function App() {
     return (
         <div>
-            <TopPart></TopPart>
+            <AppHeader></AppHeader>
+            <Appear></Appear>
             
-            <BottomPart></BottomPart>
+            <Footer></Footer>
         </div>
     )
 }

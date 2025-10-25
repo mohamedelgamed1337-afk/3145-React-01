@@ -1,11 +1,11 @@
 
-import { AboutMe } from "./about.jsx"
-export default function TopPart() {
+import { EmptyButton } from './Buttons'
+export default function AppHeader() {
     return ( <div>
         <header>
-        <AboutMe></AboutMe>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed, est.</p>
+        <EmptyButton></EmptyButton><EmptyButton></EmptyButton>
         </header>
         </div>
     )
 }
-
