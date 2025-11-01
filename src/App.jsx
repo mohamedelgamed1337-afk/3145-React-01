@@ -1,18 +1,11 @@
-import { ChallangeH1, ChallangeH2, ChallangeH3, ChallangeH4 } from './Badge'
-import Footer from './BottomPart'
-import { Appear } from './Bodyy'
-import AppHeader from './TopPart'
+import { useState } from 'react'
+
+
 export default function App() {
-    return (
-        <div>
-            {/* <AppHeader></AppHeader> */}
-            
-            <ChallangeH1  BgAndText1="badge bg-secondary fs-1"></ChallangeH1>
-            <ChallangeH2   BgAndText2="badge bg-primary fs-2" ></ChallangeH2>
-            <ChallangeH3    BgAndText3="badge bg-danger fs-3"></ChallangeH3>
-            <ChallangeH4    BgAndText4="badge bg-info fs-4"></ChallangeH4>
-            {/* <Appear></Appear>
-            <Footer></Footer> */}
-        </div>
-    )
+  return(
+    <div className='flex content-between'>
+        <p className="text-red-800  font-semibold ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis recusandae facere rem iste, repellat quia sequi delectus. Animi, dolorem modi.</p>
+        <p  className='text-fuchsia-700'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ipsam saepe omnis aliquam ratione eveniet perspiciatis. Pariatur rerum impedit laboriosam.</p>
+    </div>
+  )
 }
